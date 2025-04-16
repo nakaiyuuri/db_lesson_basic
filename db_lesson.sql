@@ -58,9 +58,9 @@ SELECT age, name FROM people WHERE gender=1 ORDER BY age DESC;
 
 Q6
 テーブル `people` から、
-カラム'department_id'のレコードが１の人の
-名前、e-mail、年齢のレコードを
-カラム`created_at`のレコードの昇順で取得しなさい。
+カラム'department_id'の値が１の人の、
+レコードの名前、e-mail、年齢を
+カラム`created_at`の値の昇順で取得しなさい。
 
 Q7
 SELECT name FROM people WHERE (gender=2 AND age BETWEEN 20 AND 29) OR (gender=1 AND age BETWEEN 40 AND 49);
