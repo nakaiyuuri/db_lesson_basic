@@ -13,10 +13,7 @@ ALTER TABLE
     people 
 ADD 
     department_id 
-INT 
-    UNSIGNED 
-AFTER 
-    email;
+        INT UNSIGNED AFTER email;
 
 Q3
 INSERT INTO 
